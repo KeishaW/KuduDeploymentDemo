@@ -14,7 +14,7 @@ namespace KuduDemoWebJob
         // on an Azure Queue called queue.
         public static void ProcessQueueMessage([TimerTrigger("00:00:10", RunOnStartup = true)] TimerInfo timerInfo)
         {
-            Console.WriteLine("Just doing my job!");
+            Console.WriteLine("Just doing my job!!");
         }
     }
 }
