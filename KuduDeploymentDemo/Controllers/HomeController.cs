@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,7 +11,12 @@ namespace KuduDeploymentDemo.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Heading = "Kudu Demo Site - second chance";
+            ViewBag.Heading = "Kudu Demo Site";
+
+            Trace.TraceError("Oops something bad happened!");
+            Trace.TraceInformation("Just some info.");
+            Trace.TraceWarning("I'm warning you!");
+
             return View();
         }
 
