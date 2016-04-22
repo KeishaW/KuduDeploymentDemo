@@ -10,7 +10,7 @@ namespace KuduDeploymentDemo.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Heading = "Kudu Demo Site";
+            ViewBag.Heading = "Kudu Demo Site - second chance";
             return View();
         }
 
