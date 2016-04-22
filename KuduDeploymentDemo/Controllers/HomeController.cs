@@ -11,7 +11,7 @@ namespace KuduDeploymentDemo.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Heading = "Kudu Demo Site";
+            ViewBag.Heading = "Kudu Demo Site- some random something";
 
             Trace.TraceError("Oops something bad happened!");
             Trace.TraceInformation("Just some info.");
